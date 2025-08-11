@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to My World</h1>
+        <h2>Hi, I’m Dharshini</h2>
+        <p>a Passionate Student</p>
+        <a href="#contact" class="hire-button">Hire Me</a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h3>Who Am I?</h3>
+        <p>I am a student currently pursuing my 2nd in CSE(Cyber Security)  with a strong passion for python,web development & cyber security. I'm eager to learn and gain new experiences that broaden my knowledge and skills.</p>
+    </section>
+
+    <section id="portfolio">
+        <h3>My Work</h3>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">Face Detectino System using python</div>
+            <div class="portfolio-item">keyloggers using python</div>
+            <div class="portfolio-item">simple encryption tool using python</div>
+        </div>
+    </section>
+    <section id="skills">
+        <h3>My skills</h3>
+        <div class="skills-grid">
+           <div class="skills-item">Python</div>
+            <div class="skills-item">C</div>
+            <div class="skills-item">HTML & CSS</div>
+            <div class="skills-item">basics of cyberecurity</div>
+        </div>
+    </section>
+
+    <footer>
+        <h3>Contact Me</h3>
+        <div id="contact">
+            <p>dharshinidhachu32@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
+<style>
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header h2 {
+    font-size: 2em;
+    color: #ff77a2;
+}
+
+.hire-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #ff77a2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #1e1e1e;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.portfolio-item {
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 8px;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.skills-item {
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #1e1e1e;
+}
+</style>
